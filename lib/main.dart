@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: BotonFlotante(),
         theme: ThemeData(
-            primarySwatch: Colors.shade,
+            primarySwatch: Colors.green,
             accentColor: Colors.pink,
             textTheme: TextTheme(
                 bodyText2: TextStyle(
