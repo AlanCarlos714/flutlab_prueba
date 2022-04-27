@@ -8,8 +8,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: BotonFlotante(),
-    );
+        debugShowCheckedModeBanner: false,
+        home: BotonFlotante(),
+        theme: ThemeData(
+          primarySwatch: Colors.green,
+        ));
   }
 }
