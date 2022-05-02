@@ -22,7 +22,7 @@ class _BotonFlotante extends State<BotonFlotante> {
         children: [
           FloatingActionButton(
             onPressed: () => setState(() => txt = "Hola mundo"),
-            child: Icon(Icons.visibility_off),
+            child: Icon(Icons.visibility_off, size: 30),
           )
         ],
       ),
